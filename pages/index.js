@@ -14,9 +14,9 @@ export default function Home() {
 
       <main>
         <Link href="/about">About Us</Link>
-        
+
         <h1 className="title">
-          My Granparents always agree with you!
+          My Grandparents always agree with you!
         </h1>
 
         <p className="description">
