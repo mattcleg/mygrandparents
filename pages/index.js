@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import grandparents1 from '../public/grandparents1.jpeg'
 
 
@@ -12,12 +13,14 @@ export default function Home() {
       </Head>
 
       <main>
+        <Link href="/about">About Us</Link>
+        
         <h1 className="title">
           My Granparents always agree with you!
         </h1>
 
         <p className="description">
-          this is your one stop shop for grandparents that agree with YOU!!!
+          This is your one stop shop for grandparents that agree with YOU!!!
         </p>
 
         <Image src={grandparents1} />
