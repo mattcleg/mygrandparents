@@ -13,7 +13,7 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          my granparents always agree with you
+          My Granparents always agree with you!
         </h1>
 
         <p className="description">
