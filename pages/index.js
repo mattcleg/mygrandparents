@@ -20,7 +20,8 @@ export default function Home() {
         </h1>
 
         <p className="description">
-          This is your one stop shop for grandparents that agree with YOU!!!
+          This is your one stop shop for grandparents that agree with YOU!!! 
+           And that's great.
         </p>
 
         <Image src={grandparents1} />
